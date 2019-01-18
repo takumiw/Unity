@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 408c9dbf7c3a04da891aae50496a6e43
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - scoreLabel: {instanceID: 0}
+  - endBGM: {fileID: 1547012926186752, guid: a2e5ff7ea9bf462499a428fa0dcfbef7, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
