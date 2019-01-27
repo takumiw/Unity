@@ -1,7 +1,7 @@
 
 ## <font color="Orange"> VOVO-VOVO </font>
 
-#### Let's move the grandpa and catch grandma falling from the sky !!
+#### Let's move the grandpa and catch a grandma falling from the sky !!
 <br>
 <img src="https://github.com/takumiw/src/blob/master/title_game1.png"  width="500px" border="1px" style="margin: 0 10px 0 0">
 <br><br>
