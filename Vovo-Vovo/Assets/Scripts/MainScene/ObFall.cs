@@ -19,14 +19,14 @@ public class ObFall: MonoBehaviour {
 		if (this.transform.position.y < -5.0f){
 			Destroy(this.gameObject);
 		}
-		GameObject obj_oj = GameObject.FindGameObjectWithTag("OjiichanToDelete");
+		/*GameObject obj_oj = GameObject.FindGameObjectWithTag("OjiichanToDelete");
 		if (obj_oj){
 			Vector3 oj_loc = obj_oj.transform.position;
 			if (oj_loc.x <= -3.0f){
 				Destroy(obj_oj);
 			}
 			obj_oj.transform.position -= new Vector3 (0.04f, 0, 0);
-		}
+		}*/
   }
 	// トリガーとの接触時に呼ばれるコールバック
 	void OnTriggerEnter (Collider hit){
@@ -34,10 +34,10 @@ public class ObFall: MonoBehaviour {
 			// アニメーションを再生
 
 			// とりあえず、消えるようにする
-			GameObject obj_oj0 = GameObject.Find("Ojiichan(Clone)");
+			/*GameObject obj_oj0 = GameObject.Find("Ojiichan(Clone)");
 			obj_oj0.tag = "OjiichanToDelete";
 			GameObject obj_oj = GameObject.FindGameObjectWithTag("OjiichanToDelete");
-			obj_oj.layer = LayerMask.NameToLayer("OjiichanToDelete");
+			obj_oj.layer = LayerMask.NameToLayer("OjiichanToDelete");*/
 			Destroy(this.gameObject);
 			// Destroy(obj_oj);
 
@@ -57,9 +57,9 @@ public class ObFall: MonoBehaviour {
 
 			// 新しいおじいちゃんを発生させる
 			// CubeプレハブをGameObject型で取得
-			GameObject obj = (GameObject)Resources.Load("Ojiichan");
+			/*GameObject obj = (GameObject)Resources.Load("Ojiichan");
 			// Cubeプレハブを元に、インスタンスを生成
-			Instantiate(obj, new Vector3(0.0f, -2.5f, 0.0f), Quaternion.identity);
+			Instantiate(obj, new Vector3(0.0f, -2.5f, 0.0f), Quaternion.identity);*/
     }
 		else if (hit.CompareTag ("Floor")) {
 			// DAMAGE ANIMATION AND DECREASE HP
